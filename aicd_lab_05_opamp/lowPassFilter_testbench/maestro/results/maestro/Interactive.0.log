@@ -1,0 +1,17 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jun  1 15:42:38 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_lowPassFilter_testbench_1	corner	Nominal - 
+	Vout_offset		Error	No
+	input_offset		Error	No
+	DC_Gain		Error	No
+	BW		Error	No
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 4
+Interactive.0 completed. 
+Current time: Thu Jun  1 15:42:51 2023 

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<statedb ICVersion="IC6.1.8-64b.500.27" modifiedTime="05/12/2023 13:03:22" version="5">Interactive.7
+	<Test Name="aicd_lab_05_opamp_opamp_testbench_1">
+		<component Name="adeInfo" Type="skillTable">adeinfo
+			<field Name="descriptiontext" Type="string">"None"</field>
+			<field Name="projectDir" Type="string">"/home/aic05/simulation/aicd_lab_05_opamp/opamp_testbench/maestro_1/results/maestro/.tmpADEDir_aic05/aicd_lab_05_opamp_opamp_testbench_1/simulation"</field>
+			<field Name="designInfo" Type="list">("aicd_lab_05_opamp" "opamp_testbench" "schematic" "spectre")</field>
+		</component>
+		<component Name="rfstim" Type="skillTable">rfstim</component>
+		<component Name="analyses" Type="skillTable">asiEnvSaveTable
+			<analyses Name="analysis">
+				<analysis Name="tran">
+					<partition Name="options">
+						<field Name="additionalOptions" Type="string">""</field>
+						<field Name="saveLayer" Type="string">""</field>
+						<field Name="saveChannelOnly" Type="string">"No"</field>
+						<field Name="boundingBox" Type="string">""</field>
+						<field Name="maxDevicesInReport" Type="string">""</field>
+						<field Name="triseTemp" Type="string">"0.0"</field>
+						<field Name="sortMethod" Type="string">"Temperature Rise"</field>
+						<field Name="thermalTimeStep" Type="string">"0"</field>
+						<field Name="iterNum" Type="string">"2"</field>
+						<field Name="devicesInReport" Type="string">""</field>
+						<field Name="resTriseRpt" Type="string">"No"</field>
+						<field Name="triseLimit" Type="string">"300"</field>
+						<field Name="thermalmethod" Type="string">"Steady State"</field>
+						<field Name="config" Type="string">""</field>
+						<field Name="enableThermal" Type="list">nil</field>
+						<field Name="faultsamplemethod" Type="string">""</field>
+						<field Name="faultseed" Type="string">""</field>
+						<field Name="faultsampleratio" Type="string">""</field>
+						<field Name="faultsamplenum" Type="string">""</field>
+						<field Name="faultsamplingoption" Type="string">""</field>
+						<field Name="faultDoSampling" Type="list">nil</field>
+						<field Name="faultInfoAnalysis" Type="list">nil</field>
+						<field Name="faultDoNominal" Type="list">nil</field>
+						<field Name="faultRunCount" Type="string">""</field>
+						<field Name="faultCurrentRun" Type="string">""</field>
+						<field Name="faultextraoptions" Type="string">""</field>
+						<field Name="faultanalysis" Type="string">""</field>
+						<field Name="faultleadtime" Type="string">""</field>
+						<field Name="faultmaxiters" Type="string">""</field>
+						<field Name="faultmethod" Type="string">""</field>
+						<field Name="faultstop" Type="string">""</field>
+						<field Name="faultstep" Type="string">""</field>
+						<field Name="faultstart" Type="string">""</field>
+						<field Name="faulttimes" Type="string">""</field>
+						<field Name="faultTimePoints" Type="string">""</field>
+						<field Name="faultTimePointsMethod" Type="string">""</field>
+						<field Name="faultOptionsEnabled" Type="list">nil</field>
+						<field Name="emirfile" Type="string">""</field>
+						<field Name="emirstop" Type="string">""</field>
+						<field Name="emirstart" Type="string">""</field>
+						<field Name="emirformat" Type="string">""</field>
+						<field Name="additionalParams" Type="string">""</field>
+						<field Name="thermalNodeTable" Type="skillDpl">
+							<field Name="choices" Type="list">nil</field>
+							<field Name="value" Type="list">nil</field>
+						</field>
+						<field Name="thermalPinName" Type="string">""</field>
+						<field Name="instanceField" Type="string">""</field>
+						<field Name="thermalModelFile" Type="string">""</field>
+						<field Name="enableThermalNode" Type="list">nil</field>
+						<field Name="sort" Type="string">"name"</field>
+						<field Name="detail" Type="string">"node"</field>
+						<field Name="threshold" Type="string">"0.0"</field>
+						<field Name="timed" Type="list">nil</field>
+						<field Name="captab" Type="list">nil</field>
+						<field Name="restart" Type="string">""</field>
+						<field Name="max

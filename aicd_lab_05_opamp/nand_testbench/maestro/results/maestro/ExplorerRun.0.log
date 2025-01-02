@@ -1,0 +1,20 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Jul 14 18:31:57 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_nand_testbench_1	corner	Nominal - 
+	000		1.8
+	001		1.8
+	010		1.8
+	100		1.8
+	101		1.8
+	110		1.8
+	111		169.5n
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Fri Jul 14 18:32:16 2023 

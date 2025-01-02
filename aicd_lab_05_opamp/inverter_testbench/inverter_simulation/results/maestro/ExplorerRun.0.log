@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Jul 12 21:08:02 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_inverter_testbench_1	corner	Nominal - 
+	Max_Vout		1.8
+	Min_Vout		18.32n
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Wed Jul 12 21:08:42 2023 

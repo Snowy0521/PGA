@@ -1,0 +1,1117 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri May 12 15:07:10 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_0 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		93.37M	Yes
+	PM|grad		60.69	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		56.16	Yes
+	SR-|v/us		56.23	Yes
+	ST_low		73.61n	Yes
+	ST_high		113.9n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-668.9u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_1 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		92.22M	Yes
+	PM|grad		58.93	Yes
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		67.05	Yes
+	SR-|v/us		67.75	Yes
+	ST_low		70.89n	Yes
+	ST_high		112.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		23.73u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_2 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		93.37M	Yes
+	PM|grad		60.69	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		56.16	Yes
+	SR-|v/us		56.23	Yes
+	ST_low		73.61n	Yes
+	ST_high		113.9n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-668.9u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_3 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		92.22M	Yes
+	PM|grad		58.93	Yes
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		67.05	Yes
+	SR-|v/us		67.75	Yes
+	ST_low		70.89n	Yes
+	ST_high		112.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		23.73u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_4 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		112.8M	Yes
+	PM|grad		57.15	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		71.24	Yes
+	SR-|v/us		71.17	Yes
+	ST_low		71.08n	Yes
+	ST_high		111.8n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-558u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_5 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		112.1M	Yes
+	PM|grad		54.95	Near
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		86.54	Yes
+	SR-|v/us		85.88	Yes
+	ST_low		68.85n	Yes
+	ST_high		110.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		97.69u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_6 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		112.8M	Yes
+	PM|grad		57.15	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		71.24	Yes
+	SR-|v/us		71.17	Yes
+	ST_low		71.08n	Yes
+	ST_high		111.8n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-558u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_7 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		112.1M	Yes
+	PM|grad		54.95	Near
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		86.54	Yes
+	SR-|v/us		85.88	Yes
+	ST_low		68.85n	Yes
+	ST_high		110.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		97.69u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_8 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		83.15M	Yes
+	PM|grad		60.5	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		49.82	Yes
+	SR-|v/us		49.65	Yes
+	ST_low		75.8n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-938.4u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_9 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		83.91M	Yes
+	PM|grad		58.74	Yes
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		61.73	Yes
+	SR-|v/us		61.6	Yes
+	ST_low		72.13n	Yes
+	ST_high		113.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-650.1u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_10 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		83.15M	Yes
+	PM|grad		60.5	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		49.82	Yes
+	SR-|v/us		49.65	Yes
+	ST_low		75.8n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-938.4u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_11 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		83.91M	Yes
+	PM|grad		58.74	Yes
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		61.73	Yes
+	SR-|v/us		61.6	Yes
+	ST_low		72.13n	Yes
+	ST_high		113.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-650.1u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_12 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		101M	Yes
+	PM|grad		56.88	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		62.59	Yes
+	SR-|v/us		63.18	Yes
+	ST_low		72.83n	Yes
+	ST_high		113.2n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-720.9u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_13 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		102.3M	Yes
+	PM|grad		54.7	Near
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		78.94	Yes
+	SR-|v/us		78.66	Yes
+	ST_low		69.86n	Yes
+	ST_high		111.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-284.5u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_14 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		101M	Yes
+	PM|grad		56.88	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		62.59	Yes
+	SR-|v/us		63.18	Yes
+	ST_low		72.83n	Yes
+	ST_high		113.2n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-720.9u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_15 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		102.3M	Yes
+	PM|grad		54.7	Near
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		78.94	Yes
+	SR-|v/us		78.66	Yes
+	ST_low		69.86n	Yes
+	ST_high		111.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-284.5u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_16 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		68.56M	Yes
+	PM|grad		62.47	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		43.57	Yes
+	SR-|v/us		43.46	Yes
+	ST_low		80.32n	Yes
+	ST_high		117.9n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-699.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_17 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		73.22M	Yes
+	PM|grad		60.65	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		57.3	Yes
+	SR-|v/us		56.58	Yes
+	ST_low		74.66n	Yes
+	ST_high		114.6n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-208.8u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_18 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		68.56M	Yes
+	PM|grad		62.47	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		43.57	Yes
+	SR-|v/us		43.46	Yes
+	ST_low		80.32n	Yes
+	ST_high		117.9n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-699.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_19 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		73.22M	Yes
+	PM|grad		60.65	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		57.3	Yes
+	SR-|v/us		56.58	Yes
+	ST_low		74.66n	Yes
+	ST_high		114.6n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-208.8u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_20 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		83.24M	Yes
+	PM|grad		59.2	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		56.36	Yes
+	SR-|v/us		56.19	Yes
+	ST_low		76.51n	Yes
+	ST_high		115n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-488.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_21 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		89.33M	Yes
+	PM|grad		56.97	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		74.59	Yes
+	SR-|v/us		74.99	Yes
+	ST_low		71.9n	Yes
+	ST_high		112.3n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-63.07u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_22 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		83.24M	Yes
+	PM|grad		59.2	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		56.36	Yes
+	SR-|v/us		56.19	Yes
+	ST_low		76.51n	Yes
+	ST_high		115n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-488.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_23 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		89.33M	Yes
+	PM|grad		56.97	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		74.59	Yes
+	SR-|v/us		74.99	Yes
+	ST_low		71.9n	Yes
+	ST_high		112.3n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-63.07u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_24 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		61.28M	Yes
+	PM|grad		62.44	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		39.12	Yes
+	SR-|v/us		38.97	Yes
+	ST_low		83.48n	Yes
+	ST_high		119.9n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-814.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_25 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		66.29M	Yes
+	PM|grad		60.9	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		52.79	Yes
+	SR-|v/us		52.35	Yes
+	ST_low		76.13n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-671.8u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_26 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		61.28M	Yes
+	PM|grad		62.44	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		39.12	Yes
+	SR-|v/us		38.97	Yes
+	ST_low		83.48n	Yes
+	ST_high		119.9n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-814.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_27 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		66.29M	Yes
+	PM|grad		60.9	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		52.79	Yes
+	SR-|v/us		52.35	Yes
+	ST_low		76.13n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-671.8u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_28 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		74.75M	Yes
+	PM|grad		59.13	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		50.23	Yes
+	SR-|v/us		50.64	Yes
+	ST_low		78.99n	Yes
+	ST_high		116.7n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-633.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_29 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		80.97M	Yes
+	PM|grad		57.28	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		69.24	Yes
+	SR-|v/us		69.59	Yes
+	ST_low		73.12n	Yes
+	ST_high		113.1n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-435.5u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_30 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		74.75M	Yes
+	PM|grad		59.13	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		50.23	Yes
+	SR-|v/us		50.64	Yes
+	ST_low		78.99n	Yes
+	ST_high		116.7n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-633.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_31 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		80.97M	Yes
+	PM|grad		57.28	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		69.24	Yes
+	SR-|v/us		69.59	Yes
+	ST_low		73.12n	Yes
+	ST_high		113.1n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-435.5u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_32 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		93.37M	Yes
+	PM|grad		60.69	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		56.16	Yes
+	SR-|v/us		56.23	Yes
+	ST_low		73.61n	Yes
+	ST_high		113.9n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-668.9u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_33 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		92.22M	Yes
+	PM|grad		58.93	Yes
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		67.05	Yes
+	SR-|v/us		67.75	Yes
+	ST_low		70.89n	Yes
+	ST_high		112.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		23.73u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_34 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		93.37M	Yes
+	PM|grad		60.69	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		56.16	Yes
+	SR-|v/us		56.23	Yes
+	ST_low		73.61n	Yes
+	ST_high		113.9n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-668.9u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_35 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		92.22M	Yes
+	PM|grad		58.93	Yes
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		67.05	Yes
+	SR-|v/us		67.75	Yes
+	ST_low		70.89n	Yes
+	ST_high		112.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		23.73u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_36 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		112.8M	Yes
+	PM|grad		57.15	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		71.24	Yes
+	SR-|v/us		71.17	Yes
+	ST_low		71.08n	Yes
+	ST_high		111.8n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-558u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_37 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		112.1M	Yes
+	PM|grad		54.95	Near
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		86.54	Yes
+	SR-|v/us		85.88	Yes
+	ST_low		68.85n	Yes
+	ST_high		110.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		97.69u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_38 - 
+	input_offset|volt		1.26m	Yes
+	DC Gain|dB		57.43	Yes
+	GBW|Hz		112.8M	Yes
+	PM|grad		57.15	Yes
+	CM Gain|dB		-7.53
+	CMRR|dB		64.96	Yes
+	SR+|v/us		71.24	Yes
+	SR-|v/us		71.17	Yes
+	ST_low		71.08n	Yes
+	ST_high		111.8n	Yes
+	Input Noise at 20kHz		46.17n	Yes
+	DC Power		445.3u	Yes
+	Out_swing_volt_max		1.779	Yes
+	Out_swing_volt_min		-558u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		771.3n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_39 - 
+	input_offset|volt		1.636m	Yes
+	DC Gain|dB		57.58	Yes
+	GBW|Hz		112.1M	Yes
+	PM|grad		54.95	Near
+	CM Gain|dB		-8.817
+	CMRR|dB		66.39	Yes
+	SR+|v/us		86.54	Yes
+	SR-|v/us		85.88	Yes
+	ST_low		68.85n	Yes
+	ST_high		110.5n	Yes
+	Input Noise at 20kHz		53.36n	Yes
+	DC Power		369.6u	Yes
+	Out_swing_volt_max		1.774	Yes
+	Out_swing_volt_min		97.69u	Yes
+	ICMR_max		1.72	Yes
+	ICMR_min		42.48u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_40 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		83.15M	Yes
+	PM|grad		60.5	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		49.82	Yes
+	SR-|v/us		49.65	Yes
+	ST_low		75.8n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-938.4u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_41 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		83.91M	Yes
+	PM|grad		58.74	Yes
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		61.73	Yes
+	SR-|v/us		61.6	Yes
+	ST_low		72.13n	Yes
+	ST_high		113.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-650.1u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_42 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		83.15M	Yes
+	PM|grad		60.5	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		49.82	Yes
+	SR-|v/us		49.65	Yes
+	ST_low		75.8n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-938.4u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_43 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		83.91M	Yes
+	PM|grad		58.74	Yes
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		61.73	Yes
+	SR-|v/us		61.6	Yes
+	ST_low		72.13n	Yes
+	ST_high		113.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-650.1u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_44 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		101M	Yes
+	PM|grad		56.88	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		62.59	Yes
+	SR-|v/us		63.18	Yes
+	ST_low		72.83n	Yes
+	ST_high		113.2n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-720.9u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_45 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		102.3M	Yes
+	PM|grad		54.7	Near
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		78.94	Yes
+	SR-|v/us		78.66	Yes
+	ST_low		69.86n	Yes
+	ST_high		111.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-284.5u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_46 - 
+	input_offset|volt		1.668m	Yes
+	DC Gain|dB		57.97	Yes
+	GBW|Hz		101M	Yes
+	PM|grad		56.88	Yes
+	CM Gain|dB		-6.743
+	CMRR|dB		64.71	Yes
+	SR+|v/us		62.59	Yes
+	SR-|v/us		63.18	Yes
+	ST_low		72.83n	Yes
+	ST_high		113.2n	Yes
+	Input Noise at 20kHz		48.19n	Yes
+	DC Power		368.3u	Yes
+	Out_swing_volt_max		1.775	Yes
+	Out_swing_volt_min		-720.9u	Yes
+	ICMR_max		1.702	Yes
+	ICMR_min		222.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_47 - 
+	input_offset|volt		2.292m	Yes
+	DC Gain|dB		57.35	Yes
+	GBW|Hz		102.3M	Yes
+	PM|grad		54.7	Near
+	CM Gain|dB		-9.496
+	CMRR|dB		66.84	Yes
+	SR+|v/us		78.94	Yes
+	SR-|v/us		78.66	Yes
+	ST_low		69.86n	Yes
+	ST_high		111.5n	Yes
+	Input Noise at 20kHz		55.28n	Near
+	DC Power		317.8u	Yes
+	Out_swing_volt_max		1.769	Yes
+	Out_swing_volt_min		-284.5u	Yes
+	ICMR_max		1.685	Yes
+	ICMR_min		7.013u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_48 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		68.56M	Yes
+	PM|grad		62.47	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		43.57	Yes
+	SR-|v/us		43.46	Yes
+	ST_low		80.32n	Yes
+	ST_high		117.9n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-699.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_49 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		73.22M	Yes
+	PM|grad		60.65	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		57.3	Yes
+	SR-|v/us		56.58	Yes
+	ST_low		74.66n	Yes
+	ST_high		114.6n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-208.8u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_50 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		68.56M	Yes
+	PM|grad		62.47	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		43.57	Yes
+	SR-|v/us		43.46	Yes
+	ST_low		80.32n	Yes
+	ST_high		117.9n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-699.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_51 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		73.22M	Yes
+	PM|grad		60.65	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		57.3	Yes
+	SR-|v/us		56.58	Yes
+	ST_low		74.66n	Yes
+	ST_high		114.6n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-208.8u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_52 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		83.24M	Yes
+	PM|grad		59.2	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		56.36	Yes
+	SR-|v/us		56.19	Yes
+	ST_low		76.51n	Yes
+	ST_high		115n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-488.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_53 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		89.33M	Yes
+	PM|grad		56.97	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		74.59	Yes
+	SR-|v/us		74.99	Yes
+	ST_low		71.9n	Yes
+	ST_high		112.3n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-63.07u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_54 - 
+	input_offset|volt		1.442m	Yes
+	DC Gain|dB		58.37	Yes
+	GBW|Hz		83.24M	Yes
+	PM|grad		59.2	Yes
+	CM Gain|dB		-4.498
+	CMRR|dB		62.87	Yes
+	SR+|v/us		56.36	Yes
+	SR-|v/us		56.19	Yes
+	ST_low		76.51n	Yes
+	ST_high		115n	Yes
+	Input Noise at 20kHz		49.89n	Yes
+	DC Power		374.9u	Yes
+	Out_swing_volt_max		1.781	Yes
+	Out_swing_volt_min		-488.7u	Yes
+	ICMR_max		1.747	Yes
+	ICMR_min		552.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_55 - 
+	input_offset|volt		1.942m	Yes
+	DC Gain|dB		58.26	Yes
+	GBW|Hz		89.33M	Yes
+	PM|grad		56.97	Yes
+	CM Gain|dB		-6.446
+	CMRR|dB		64.7	Yes
+	SR+|v/us		74.59	Yes
+	SR-|v/us		74.99	Yes
+	ST_low		71.9n	Yes
+	ST_high		112.3n	Yes
+	Input Noise at 20kHz		56.66n	Near
+	DC Power		323.8u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-63.07u	Yes
+	ICMR_max		1.734	Yes
+	ICMR_min		9.214u	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_56 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		61.28M	Yes
+	PM|grad		62.44	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		39.12	Yes
+	SR-|v/us		38.97	Yes
+	ST_low		83.48n	Yes
+	ST_high		119.9n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-814.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_57 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		66.29M	Yes
+	PM|grad		60.9	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		52.79	Yes
+	SR-|v/us		52.35	Yes
+	ST_low		76.13n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-671.8u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_58 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		61.28M	Yes
+	PM|grad		62.44	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		39.12	Yes
+	SR-|v/us		38.97	Yes
+	ST_low		83.48n	Yes
+	ST_high		119.9n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-814.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_59 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		66.29M	Yes
+	PM|grad		60.9	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		52.79	Yes
+	SR-|v/us		52.35	Yes
+	ST_low		76.13n	Yes
+	ST_high		115.6n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-671.8u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_60 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		74.75M	Yes
+	PM|grad		59.13	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		50.23	Yes
+	SR-|v/us		50.64	Yes
+	ST_low		78.99n	Yes
+	ST_high		116.7n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-633.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_61 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		80.97M	Yes
+	PM|grad		57.28	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		69.24	Yes
+	SR-|v/us		69.59	Yes
+	ST_low		73.12n	Yes
+	ST_high		113.1n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-435.5u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_62 - 
+	input_offset|volt		1.971m	Yes
+	DC Gain|dB		58.59	Yes
+	GBW|Hz		74.75M	Yes
+	PM|grad		59.13	Yes
+	CM Gain|dB		-3.612
+	CMRR|dB		62.2	Yes
+	SR+|v/us		50.23	Yes
+	SR-|v/us		50.64	Yes
+	ST_low		78.99n	Yes
+	ST_high		116.7n	Yes
+	Input Noise at 20kHz		52.13n	Yes
+	DC Power		312.1u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-633.6u	Yes
+	ICMR_max		1.724	Yes
+	ICMR_min		142.6n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Corner_63 - 
+	input_offset|volt		2.549m	Yes
+	DC Gain|dB		57.05	Yes
+	GBW|Hz		80.97M	Yes
+	PM|grad		57.28	Yes
+	CM Gain|dB		-7.447
+	CMRR|dB		64.5	Yes
+	SR+|v/us		69.24	Yes
+	SR-|v/us		69.59	Yes
+	ST_low		73.12n	Yes
+	ST_high		113.1n	Yes
+	Input Noise at 20kHz		58.62n	Near
+	DC Power		280.9u	Yes
+	Out_swing_volt_max		1.772	Yes
+	Out_swing_volt_min		-435.5u	Yes
+	ICMR_max		1.707	Yes
+	ICMR_min		695.9n	Yes
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Nominal - 
+	input_offset|volt		1.769m	Yes
+	DC Gain|dB		58.1	Yes
+	GBW|Hz		85.94M	Yes
+	PM|grad		58.81	Yes
+	CM Gain|dB		-6.755
+	CMRR|dB		64.86	Yes
+	SR+|v/us		59.84	Yes
+	SR-|v/us		59.89	Yes
+	ST_low		73.76n	Yes
+	ST_high		113.9n	Yes
+	Input Noise at 20kHz		52.01n	Yes
+	DC Power		343.9u	Yes
+	Out_swing_volt_max		1.776	Yes
+	Out_swing_volt_min		-610.1u	Yes
+	ICMR_max		1.722	Yes
+	ICMR_min		493.4n	Yes
+Design parameters: 
+
+Interactive.13
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.13 completed. 
+Current time: Fri May 12 15:12:26 2023 

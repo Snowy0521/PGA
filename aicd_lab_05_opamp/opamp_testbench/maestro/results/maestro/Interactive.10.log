@@ -1,0 +1,29 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri May 12 14:17:21 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_opamp_testbench_1	corner	Nominal - 
+	input_offset|volt		770.1u	Yes
+	DC Gain|dB		58.29	Yes
+	GBW|Hz		24.58M	Yes
+	PM|grad		69.4	Yes
+	CM Gain|dB		-1.78
+	CMRR|dB		60.07	Yes
+	SR+|v/us		18.72	Yes
+	SR-|v/us		18.64	Yes
+	ST_low		104.9n	Yes
+	ST_high		132.9n	Yes
+	Input Noise at 20kHz		49.99n	Yes
+	DC Power		414.6u	Yes
+	Out_swing_volt_max		1.778	Yes
+	Out_swing_volt_min		-12.07m	Yes
+	ICMR_max		1.735	Yes
+	ICMR_min		386.3n	Yes
+Design parameters: 
+
+Interactive.10
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.10 completed. 
+Current time: Fri May 12 14:17:34 2023 

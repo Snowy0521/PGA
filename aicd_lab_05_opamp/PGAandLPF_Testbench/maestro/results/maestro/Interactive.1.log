@@ -1,0 +1,1442 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Jun  9 10:30:43 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_0 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.35K	Yes
+	BW Tolerance		2.646	No
+	DC Gain S0		123.5m	Yes
+	DC Gain S1		3.061	Yes
+	DC Gain S2		6.02	Yes
+	DC Gain S3		8.98	Yes
+	DC Gain S4		11.96	Yes
+	DC Gain S5		14.93	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.86	Yes
+	DNL0		41.15m	Yes
+	DNL1		20.33m	Yes
+	DNL2		6.544m	Yes
+	DNL3		-6.738m	Yes
+	DNL4		-13.92m	Yes
+	DNL5		-23.85m	Yes
+	DNL6		-35.08m	Yes
+	DNL7		-48.05m	Yes
+	INL		-59.62m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_1 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.351	No
+	DC Gain S0		101.7m	Yes
+	DC Gain S1		3.043	Yes
+	DC Gain S2		6.004	Yes
+	DC Gain S3		8.966	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		33.9m	Yes
+	DNL1		14.42m	Yes
+	DNL2		1.484m	Yes
+	DNL3		-11.36m	Yes
+	DNL4		-18.48m	Yes
+	DNL5		-28.68m	Yes
+	DNL6		-40.58m	Yes
+	DNL7		-54.67m	Yes
+	INL		-104m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_2 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.35K	Yes
+	BW Tolerance		2.646	No
+	DC Gain S0		123.5m	Yes
+	DC Gain S1		3.061	Yes
+	DC Gain S2		6.02	Yes
+	DC Gain S3		8.98	Yes
+	DC Gain S4		11.96	Yes
+	DC Gain S5		14.93	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.86	Yes
+	DNL0		41.15m	Yes
+	DNL1		20.33m	Yes
+	DNL2		6.544m	Yes
+	DNL3		-6.738m	Yes
+	DNL4		-13.92m	Yes
+	DNL5		-23.85m	Yes
+	DNL6		-35.08m	Yes
+	DNL7		-48.05m	Yes
+	INL		-59.62m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_3 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.351	No
+	DC Gain S0		101.7m	Yes
+	DC Gain S1		3.043	Yes
+	DC Gain S2		6.004	Yes
+	DC Gain S3		8.966	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		33.9m	Yes
+	DNL1		14.42m	Yes
+	DNL2		1.484m	Yes
+	DNL3		-11.36m	Yes
+	DNL4		-18.48m	Yes
+	DNL5		-28.68m	Yes
+	DNL6		-40.58m	Yes
+	DNL7		-54.67m	Yes
+	INL		-104m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_4 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.44K	Yes
+	BW Tolerance		2.561	No
+	DC Gain S0		-12.07m	Yes
+	DC Gain S1		2.965	Yes
+	DC Gain S2		5.952	Yes
+	DC Gain S3		8.932	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		-4.024m	Yes
+	DNL1		-11.6m	Yes
+	DNL2		-15.97m	Yes
+	DNL3		-22.64m	Yes
+	DNL4		-25.2m	Yes
+	DNL5		-32m	Yes
+	DNL6		-41.22m	Yes
+	DNL7		-53.04m	Yes
+	INL		-205.7m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_5 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.417	No
+	DC Gain S0		-4.328m	Yes
+	DC Gain S1		2.968	Yes
+	DC Gain S2		5.951	Yes
+	DC Gain S3		8.927	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		-1.443m	Yes
+	DNL1		-10.75m	Yes
+	DNL2		-16.47m	Yes
+	DNL3		-24.28m	Yes
+	DNL4		-27.92m	Yes
+	DNL5		-35.83m	Yes
+	DNL6		-46.34m	Yes
+	DNL7		-59.77m	Yes
+	INL		-222.8m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_6 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.44K	Yes
+	BW Tolerance		2.561	No
+	DC Gain S0		-12.07m	Yes
+	DC Gain S1		2.965	Yes
+	DC Gain S2		5.952	Yes
+	DC Gain S3		8.932	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		-4.024m	Yes
+	DNL1		-11.6m	Yes
+	DNL2		-15.97m	Yes
+	DNL3		-22.64m	Yes
+	DNL4		-25.2m	Yes
+	DNL5		-32m	Yes
+	DNL6		-41.22m	Yes
+	DNL7		-53.04m	Yes
+	INL		-205.7m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_7 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.417	No
+	DC Gain S0		-4.328m	Yes
+	DC Gain S1		2.968	Yes
+	DC Gain S2		5.951	Yes
+	DC Gain S3		8.927	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		-1.443m	Yes
+	DNL1		-10.75m	Yes
+	DNL2		-16.47m	Yes
+	DNL3		-24.28m	Yes
+	DNL4		-27.92m	Yes
+	DNL5		-35.83m	Yes
+	DNL6		-46.34m	Yes
+	DNL7		-59.77m	Yes
+	INL		-222.8m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_8 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.41K	Yes
+	BW Tolerance		2.593	No
+	DC Gain S0		6.243m	Yes
+	DC Gain S1		2.978	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.937	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		2.081m	Yes
+	DNL1		-7.478m	Yes
+	DNL2		-13.28m	Yes
+	DNL3		-21m	Yes
+	DNL4		-24.36m	Yes
+	DNL5		-31.79m	Yes
+	DNL6		-41.54m	Yes
+	DNL7		-53.87m	Yes
+	INL		-191.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_9 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.384	No
+	DC Gain S0		16.03m	Yes
+	DC Gain S1		2.982	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.933	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		5.343m	Yes
+	DNL1		-6.155m	Yes
+	DNL2		-13.47m	Yes
+	DNL3		-22.45m	Yes
+	DNL4		-26.97m	Yes
+	DNL5		-35.58m	Yes
+	DNL6		-46.68m	Yes
+	DNL7		-60.68m	Yes
+	INL		-206.6m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_10 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.41K	Yes
+	BW Tolerance		2.593	No
+	DC Gain S0		6.243m	Yes
+	DC Gain S1		2.978	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.937	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		2.081m	Yes
+	DNL1		-7.478m	Yes
+	DNL2		-13.28m	Yes
+	DNL3		-21m	Yes
+	DNL4		-24.36m	Yes
+	DNL5		-31.79m	Yes
+	DNL6		-41.54m	Yes
+	DNL7		-53.87m	Yes
+	INL		-191.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_11 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.384	No
+	DC Gain S0		16.03m	Yes
+	DC Gain S1		2.982	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.933	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		5.343m	Yes
+	DNL1		-6.155m	Yes
+	DNL2		-13.47m	Yes
+	DNL3		-22.45m	Yes
+	DNL4		-26.97m	Yes
+	DNL5		-35.58m	Yes
+	DNL6		-46.68m	Yes
+	DNL7		-60.68m	Yes
+	INL		-206.6m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_12 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.4K	Yes
+	BW Tolerance		2.597	No
+	DC Gain S0		43.26m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.981	Yes
+	DC Gain S3		8.954	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.92	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.85	Yes
+	DNL0		14.42m	Yes
+	DNL1		1.75m	Yes
+	DNL2		-6.182m	Yes
+	DNL3		-15.28m	Yes
+	DNL4		-19.44m	Yes
+	DNL5		-27.18m	Yes
+	DNL6		-36.8m	Yes
+	DNL7		-48.53m	Yes
+	INL		-137.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_13 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.401	No
+	DC Gain S0		46.11m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.979	Yes
+	DC Gain S3		8.949	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		15.37m	Yes
+	DNL1		1.644m	Yes
+	DNL2		-7.134m	Yes
+	DNL3		-16.97m	Yes
+	DNL4		-21.85m	Yes
+	DNL5		-30.36m	Yes
+	DNL6		-40.91m	Yes
+	DNL7		-53.82m	Yes
+	INL		-154m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_14 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		97.4K	Yes
+	BW Tolerance		2.597	No
+	DC Gain S0		43.26m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.981	Yes
+	DC Gain S3		8.954	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.92	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.85	Yes
+	DNL0		14.42m	Yes
+	DNL1		1.75m	Yes
+	DNL2		-6.182m	Yes
+	DNL3		-15.28m	Yes
+	DNL4		-19.44m	Yes
+	DNL5		-27.18m	Yes
+	DNL6		-36.8m	Yes
+	DNL7		-48.53m	Yes
+	INL		-137.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_15 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		101.4K	Yes
+	BW Tolerance		1.401	No
+	DC Gain S0		46.11m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.979	Yes
+	DC Gain S3		8.949	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		15.37m	Yes
+	DNL1		1.644m	Yes
+	DNL2		-7.134m	Yes
+	DNL3		-16.97m	Yes
+	DNL4		-21.85m	Yes
+	DNL5		-30.36m	Yes
+	DNL6		-40.91m	Yes
+	DNL7		-53.82m	Yes
+	INL		-154m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_16 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.45K	Yes
+	BW Tolerance		26.55	No
+	DC Gain S0		119.4m	Yes
+	DC Gain S1		3.077	Yes
+	DC Gain S2		6.048	Yes
+	DC Gain S3		9.019	Yes
+	DC Gain S4		12	Yes
+	DC Gain S5		14.98	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		39.79m	Yes
+	DNL1		25.74m	Yes
+	DNL2		15.84m	Yes
+	DNL3		6.273m	Yes
+	DNL4		820.7u	Yes
+	DNL5		-6.897m	Yes
+	DNL6		-16.83m	Yes
+	DNL7		-28.55m	Yes
+	INL		36.19m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_17 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.48K	Yes
+	BW Tolerance		23.52	No
+	DC Gain S0		101.8m	Yes
+	DC Gain S1		3.063	Yes
+	DC Gain S2		6.035	Yes
+	DC Gain S3		9.007	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		33.93m	Yes
+	DNL1		20.93m	Yes
+	DNL2		11.68m	Yes
+	DNL3		2.444m	Yes
+	DNL4		-2.967m	Yes
+	DNL5		-10.93m	Yes
+	DNL6		-21.4m	Yes
+	DNL7		-34.04m	Yes
+	INL		-349.1u	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_18 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.45K	Yes
+	BW Tolerance		26.55	No
+	DC Gain S0		119.4m	Yes
+	DC Gain S1		3.077	Yes
+	DC Gain S2		6.048	Yes
+	DC Gain S3		9.019	Yes
+	DC Gain S4		12	Yes
+	DC Gain S5		14.98	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		39.79m	Yes
+	DNL1		25.74m	Yes
+	DNL2		15.84m	Yes
+	DNL3		6.273m	Yes
+	DNL4		820.7u	Yes
+	DNL5		-6.897m	Yes
+	DNL6		-16.83m	Yes
+	DNL7		-28.55m	Yes
+	INL		36.19m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_19 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.48K	Yes
+	BW Tolerance		23.52	No
+	DC Gain S0		101.8m	Yes
+	DC Gain S1		3.063	Yes
+	DC Gain S2		6.035	Yes
+	DC Gain S3		9.007	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		33.93m	Yes
+	DNL1		20.93m	Yes
+	DNL2		11.68m	Yes
+	DNL3		2.444m	Yes
+	DNL4		-2.967m	Yes
+	DNL5		-10.93m	Yes
+	DNL6		-21.4m	Yes
+	DNL7		-34.04m	Yes
+	INL		-349.1u	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_20 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.51K	Yes
+	BW Tolerance		26.49	No
+	DC Gain S0		16.72m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.996	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		5.573m	Yes
+	DNL1		1.525m	Yes
+	DNL2		-1.312m	Yes
+	DNL3		-5.932m	Yes
+	DNL4		-7.964m	Yes
+	DNL5		-13.4m	Yes
+	DNL6		-21.91m	Yes
+	DNL7		-32.9m	Yes
+	INL		-76.32m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_21 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.53K	Yes
+	BW Tolerance		23.47	No
+	DC Gain S0		21.53m	Yes
+	DC Gain S1		3.006	Yes
+	DC Gain S2		5.994	Yes
+	DC Gain S3		8.978	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		7.175m	Yes
+	DNL1		1.856m	Yes
+	DNL2		-1.985m	Yes
+	DNL3		-7.461m	Yes
+	DNL4		-10.3m	Yes
+	DNL5		-16.6m	Yes
+	DNL6		-26.12m	Yes
+	DNL7		-38.37m	Yes
+	INL		-91.81m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_22 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.51K	Yes
+	BW Tolerance		26.49	No
+	DC Gain S0		16.72m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.996	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		5.573m	Yes
+	DNL1		1.525m	Yes
+	DNL2		-1.312m	Yes
+	DNL3		-5.932m	Yes
+	DNL4		-7.964m	Yes
+	DNL5		-13.4m	Yes
+	DNL6		-21.91m	Yes
+	DNL7		-32.9m	Yes
+	INL		-76.32m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_23 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.53K	Yes
+	BW Tolerance		23.47	No
+	DC Gain S0		21.53m	Yes
+	DC Gain S1		3.006	Yes
+	DC Gain S2		5.994	Yes
+	DC Gain S3		8.978	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		7.175m	Yes
+	DNL1		1.856m	Yes
+	DNL2		-1.985m	Yes
+	DNL3		-7.461m	Yes
+	DNL4		-10.3m	Yes
+	DNL5		-16.6m	Yes
+	DNL6		-26.12m	Yes
+	DNL7		-38.37m	Yes
+	INL		-91.81m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_24 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.49K	Yes
+	BW Tolerance		26.51	No
+	DC Gain S0		30.55m	Yes
+	DC Gain S1		3.014	Yes
+	DC Gain S2		6.002	Yes
+	DC Gain S3		8.986	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		10.18m	Yes
+	DNL1		4.646m	Yes
+	DNL2		734.3u	Yes
+	DNL3		-4.671m	Yes
+	DNL4		-7.293m	Yes
+	DNL5		-13.19m	Yes
+	DNL6		-22.09m	Yes
+	DNL7		-33.44m	Yes
+	INL		-65.12m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_25 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.5K	Yes
+	BW Tolerance		23.5	No
+	DC Gain S0		36.95m	Yes
+	DC Gain S1		3.016	Yes
+	DC Gain S2		6.001	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		12.32m	Yes
+	DNL1		5.342m	Yes
+	DNL2		304.4u	Yes
+	DNL3		-6.044m	Yes
+	DNL4		-9.545m	Yes
+	DNL5		-16.36m	Yes
+	DNL6		-26.31m	Yes
+	DNL7		-38.97m	Yes
+	INL		-79.27m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_26 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.49K	Yes
+	BW Tolerance		26.51	No
+	DC Gain S0		30.55m	Yes
+	DC Gain S1		3.014	Yes
+	DC Gain S2		6.002	Yes
+	DC Gain S3		8.986	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		10.18m	Yes
+	DNL1		4.646m	Yes
+	DNL2		734.3u	Yes
+	DNL3		-4.671m	Yes
+	DNL4		-7.293m	Yes
+	DNL5		-13.19m	Yes
+	DNL6		-22.09m	Yes
+	DNL7		-33.44m	Yes
+	INL		-65.12m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_27 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.5K	Yes
+	BW Tolerance		23.5	No
+	DC Gain S0		36.95m	Yes
+	DC Gain S1		3.016	Yes
+	DC Gain S2		6.001	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		12.32m	Yes
+	DNL1		5.342m	Yes
+	DNL2		304.4u	Yes
+	DNL3		-6.044m	Yes
+	DNL4		-9.545m	Yes
+	DNL5		-16.36m	Yes
+	DNL6		-26.31m	Yes
+	DNL7		-38.97m	Yes
+	INL		-79.27m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_28 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.48K	Yes
+	BW Tolerance		26.52	No
+	DC Gain S0		58.56m	Yes
+	DC Gain S1		3.035	Yes
+	DC Gain S2		6.018	Yes
+	DC Gain S3		8.999	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		19.52m	Yes
+	DNL1		11.65m	Yes
+	DNL2		6.156m	Yes
+	DNL3		-262.9u	Yes
+	DNL4		-3.456m	Yes
+	DNL5		-9.548m	Yes
+	DNL6		-18.29m	Yes
+	DNL7		-29.11m	Yes
+	INL		-23.34m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_29 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.51K	Yes
+	BW Tolerance		23.49	No
+	DC Gain S0		59.91m	Yes
+	DC Gain S1		3.034	Yes
+	DC Gain S2		6.016	Yes
+	DC Gain S3		8.995	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		19.97m	Yes
+	DNL1		11.34m	Yes
+	DNL2		5.234m	Yes
+	DNL3		-1.722m	Yes
+	DNL4		-5.443m	Yes
+	DNL5		-12.11m	Yes
+	DNL6		-21.55m	Yes
+	DNL7		-33.26m	Yes
+	INL		-37.54m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_30 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		73.48K	Yes
+	BW Tolerance		26.52	No
+	DC Gain S0		58.56m	Yes
+	DC Gain S1		3.035	Yes
+	DC Gain S2		6.018	Yes
+	DC Gain S3		8.999	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		19.52m	Yes
+	DNL1		11.65m	Yes
+	DNL2		6.156m	Yes
+	DNL3		-262.9u	Yes
+	DNL4		-3.456m	Yes
+	DNL5		-9.548m	Yes
+	DNL6		-18.29m	Yes
+	DNL7		-29.11m	Yes
+	INL		-23.34m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_31 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		76.51K	Yes
+	BW Tolerance		23.49	No
+	DC Gain S0		59.91m	Yes
+	DC Gain S1		3.034	Yes
+	DC Gain S2		6.016	Yes
+	DC Gain S3		8.995	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		19.97m	Yes
+	DNL1		11.34m	Yes
+	DNL2		5.234m	Yes
+	DNL3		-1.722m	Yes
+	DNL4		-5.443m	Yes
+	DNL5		-12.11m	Yes
+	DNL6		-21.55m	Yes
+	DNL7		-33.26m	Yes
+	INL		-37.54m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_32 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		131.9K	Yes
+	BW Tolerance		31.92	No
+	DC Gain S0		123.5m	Yes
+	DC Gain S1		3.061	Yes
+	DC Gain S2		6.02	Yes
+	DC Gain S3		8.98	Yes
+	DC Gain S4		11.96	Yes
+	DC Gain S5		14.93	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.86	Yes
+	DNL0		41.15m	Yes
+	DNL1		20.33m	Yes
+	DNL2		6.544m	Yes
+	DNL3		-6.738m	Yes
+	DNL4		-13.92m	Yes
+	DNL5		-23.85m	Yes
+	DNL6		-35.08m	Yes
+	DNL7		-48.05m	Yes
+	INL		-59.62m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_33 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.3K	Yes
+	BW Tolerance		37.33	No
+	DC Gain S0		101.7m	Yes
+	DC Gain S1		3.043	Yes
+	DC Gain S2		6.004	Yes
+	DC Gain S3		8.966	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		33.9m	Yes
+	DNL1		14.42m	Yes
+	DNL2		1.484m	Yes
+	DNL3		-11.36m	Yes
+	DNL4		-18.48m	Yes
+	DNL5		-28.68m	Yes
+	DNL6		-40.58m	Yes
+	DNL7		-54.67m	Yes
+	INL		-104m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_34 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		131.9K	Yes
+	BW Tolerance		31.92	No
+	DC Gain S0		123.5m	Yes
+	DC Gain S1		3.061	Yes
+	DC Gain S2		6.02	Yes
+	DC Gain S3		8.98	Yes
+	DC Gain S4		11.96	Yes
+	DC Gain S5		14.93	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.86	Yes
+	DNL0		41.15m	Yes
+	DNL1		20.33m	Yes
+	DNL2		6.544m	Yes
+	DNL3		-6.738m	Yes
+	DNL4		-13.92m	Yes
+	DNL5		-23.85m	Yes
+	DNL6		-35.08m	Yes
+	DNL7		-48.05m	Yes
+	INL		-59.62m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_35 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.3K	Yes
+	BW Tolerance		37.33	No
+	DC Gain S0		101.7m	Yes
+	DC Gain S1		3.043	Yes
+	DC Gain S2		6.004	Yes
+	DC Gain S3		8.966	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		33.9m	Yes
+	DNL1		14.42m	Yes
+	DNL2		1.484m	Yes
+	DNL3		-11.36m	Yes
+	DNL4		-18.48m	Yes
+	DNL5		-28.68m	Yes
+	DNL6		-40.58m	Yes
+	DNL7		-54.67m	Yes
+	INL		-104m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_36 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		132K	Yes
+	BW Tolerance		32.03	No
+	DC Gain S0		-12.07m	Yes
+	DC Gain S1		2.965	Yes
+	DC Gain S2		5.952	Yes
+	DC Gain S3		8.932	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		-4.024m	Yes
+	DNL1		-11.6m	Yes
+	DNL2		-15.97m	Yes
+	DNL3		-22.64m	Yes
+	DNL4		-25.2m	Yes
+	DNL5		-32m	Yes
+	DNL6		-41.22m	Yes
+	DNL7		-53.04m	Yes
+	INL		-205.7m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_37 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.4K	Yes
+	BW Tolerance		37.42	No
+	DC Gain S0		-4.328m	Yes
+	DC Gain S1		2.968	Yes
+	DC Gain S2		5.951	Yes
+	DC Gain S3		8.927	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		-1.443m	Yes
+	DNL1		-10.75m	Yes
+	DNL2		-16.47m	Yes
+	DNL3		-24.28m	Yes
+	DNL4		-27.92m	Yes
+	DNL5		-35.83m	Yes
+	DNL6		-46.34m	Yes
+	DNL7		-59.77m	Yes
+	INL		-222.8m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_38 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		132K	Yes
+	BW Tolerance		32.03	No
+	DC Gain S0		-12.07m	Yes
+	DC Gain S1		2.965	Yes
+	DC Gain S2		5.952	Yes
+	DC Gain S3		8.932	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		-4.024m	Yes
+	DNL1		-11.6m	Yes
+	DNL2		-15.97m	Yes
+	DNL3		-22.64m	Yes
+	DNL4		-25.2m	Yes
+	DNL5		-32m	Yes
+	DNL6		-41.22m	Yes
+	DNL7		-53.04m	Yes
+	INL		-205.7m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_39 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.4K	Yes
+	BW Tolerance		37.42	No
+	DC Gain S0		-4.328m	Yes
+	DC Gain S1		2.968	Yes
+	DC Gain S2		5.951	Yes
+	DC Gain S3		8.927	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		-1.443m	Yes
+	DNL1		-10.75m	Yes
+	DNL2		-16.47m	Yes
+	DNL3		-24.28m	Yes
+	DNL4		-27.92m	Yes
+	DNL5		-35.83m	Yes
+	DNL6		-46.34m	Yes
+	DNL7		-59.77m	Yes
+	INL		-222.8m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_40 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		132K	Yes
+	BW Tolerance		31.99	No
+	DC Gain S0		6.243m	Yes
+	DC Gain S1		2.978	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.937	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		2.081m	Yes
+	DNL1		-7.478m	Yes
+	DNL2		-13.28m	Yes
+	DNL3		-21m	Yes
+	DNL4		-24.36m	Yes
+	DNL5		-31.79m	Yes
+	DNL6		-41.54m	Yes
+	DNL7		-53.87m	Yes
+	INL		-191.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_41 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.4K	Yes
+	BW Tolerance		37.38	No
+	DC Gain S0		16.03m	Yes
+	DC Gain S1		2.982	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.933	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		5.343m	Yes
+	DNL1		-6.155m	Yes
+	DNL2		-13.47m	Yes
+	DNL3		-22.45m	Yes
+	DNL4		-26.97m	Yes
+	DNL5		-35.58m	Yes
+	DNL6		-46.68m	Yes
+	DNL7		-60.68m	Yes
+	INL		-206.6m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_42 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		132K	Yes
+	BW Tolerance		31.99	No
+	DC Gain S0		6.243m	Yes
+	DC Gain S1		2.978	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.937	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.9	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		2.081m	Yes
+	DNL1		-7.478m	Yes
+	DNL2		-13.28m	Yes
+	DNL3		-21m	Yes
+	DNL4		-24.36m	Yes
+	DNL5		-31.79m	Yes
+	DNL6		-41.54m	Yes
+	DNL7		-53.87m	Yes
+	INL		-191.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_43 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.4K	Yes
+	BW Tolerance		37.38	No
+	DC Gain S0		16.03m	Yes
+	DC Gain S1		2.982	Yes
+	DC Gain S2		5.96	Yes
+	DC Gain S3		8.933	Yes
+	DC Gain S4		11.92	Yes
+	DC Gain S5		14.89	Yes
+	DC Gain S6		17.86	Yes
+	DC Gain S7		20.82	Yes
+	DNL0		5.343m	Yes
+	DNL1		-6.155m	Yes
+	DNL2		-13.47m	Yes
+	DNL3		-22.45m	Yes
+	DNL4		-26.97m	Yes
+	DNL5		-35.58m	Yes
+	DNL6		-46.68m	Yes
+	DNL7		-60.68m	Yes
+	INL		-206.6m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_44 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		132K	Yes
+	BW Tolerance		31.98	No
+	DC Gain S0		43.26m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.981	Yes
+	DC Gain S3		8.954	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.92	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.85	Yes
+	DNL0		14.42m	Yes
+	DNL1		1.75m	Yes
+	DNL2		-6.182m	Yes
+	DNL3		-15.28m	Yes
+	DNL4		-19.44m	Yes
+	DNL5		-27.18m	Yes
+	DNL6		-36.8m	Yes
+	DNL7		-48.53m	Yes
+	INL		-137.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_45 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.4K	Yes
+	BW Tolerance		37.4	No
+	DC Gain S0		46.11m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.979	Yes
+	DC Gain S3		8.949	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		15.37m	Yes
+	DNL1		1.644m	Yes
+	DNL2		-7.134m	Yes
+	DNL3		-16.97m	Yes
+	DNL4		-21.85m	Yes
+	DNL5		-30.36m	Yes
+	DNL6		-40.91m	Yes
+	DNL7		-53.82m	Yes
+	INL		-154m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_46 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		132K	Yes
+	BW Tolerance		31.98	No
+	DC Gain S0		43.26m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.981	Yes
+	DC Gain S3		8.954	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.92	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.85	Yes
+	DNL0		14.42m	Yes
+	DNL1		1.75m	Yes
+	DNL2		-6.182m	Yes
+	DNL3		-15.28m	Yes
+	DNL4		-19.44m	Yes
+	DNL5		-27.18m	Yes
+	DNL6		-36.8m	Yes
+	DNL7		-48.53m	Yes
+	INL		-137.2m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_47 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		137.4K	Yes
+	BW Tolerance		37.4	No
+	DC Gain S0		46.11m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.979	Yes
+	DC Gain S3		8.949	Yes
+	DC Gain S4		11.93	Yes
+	DC Gain S5		14.91	Yes
+	DC Gain S6		17.88	Yes
+	DC Gain S7		20.84	Yes
+	DNL0		15.37m	Yes
+	DNL1		1.644m	Yes
+	DNL2		-7.134m	Yes
+	DNL3		-16.97m	Yes
+	DNL4		-21.85m	Yes
+	DNL5		-30.36m	Yes
+	DNL6		-40.91m	Yes
+	DNL7		-53.82m	Yes
+	INL		-154m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_48 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.52K	Yes
+	BW Tolerance		475.3m	No
+	DC Gain S0		119.4m	Yes
+	DC Gain S1		3.077	Yes
+	DC Gain S2		6.048	Yes
+	DC Gain S3		9.019	Yes
+	DC Gain S4		12	Yes
+	DC Gain S5		14.98	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		39.79m	Yes
+	DNL1		25.74m	Yes
+	DNL2		15.84m	Yes
+	DNL3		6.273m	Yes
+	DNL4		820.7u	Yes
+	DNL5		-6.897m	Yes
+	DNL6		-16.83m	Yes
+	DNL7		-28.55m	Yes
+	INL		36.19m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_49 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.6K	Yes
+	BW Tolerance		3.628	No
+	DC Gain S0		101.8m	Yes
+	DC Gain S1		3.063	Yes
+	DC Gain S2		6.035	Yes
+	DC Gain S3		9.007	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		33.93m	Yes
+	DNL1		20.93m	Yes
+	DNL2		11.68m	Yes
+	DNL3		2.444m	Yes
+	DNL4		-2.967m	Yes
+	DNL5		-10.93m	Yes
+	DNL6		-21.4m	Yes
+	DNL7		-34.04m	Yes
+	INL		-349.1u	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_50 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.52K	Yes
+	BW Tolerance		475.3m	No
+	DC Gain S0		119.4m	Yes
+	DC Gain S1		3.077	Yes
+	DC Gain S2		6.048	Yes
+	DC Gain S3		9.019	Yes
+	DC Gain S4		12	Yes
+	DC Gain S5		14.98	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		39.79m	Yes
+	DNL1		25.74m	Yes
+	DNL2		15.84m	Yes
+	DNL3		6.273m	Yes
+	DNL4		820.7u	Yes
+	DNL5		-6.897m	Yes
+	DNL6		-16.83m	Yes
+	DNL7		-28.55m	Yes
+	INL		36.19m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_51 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.6K	Yes
+	BW Tolerance		3.628	No
+	DC Gain S0		101.8m	Yes
+	DC Gain S1		3.063	Yes
+	DC Gain S2		6.035	Yes
+	DC Gain S3		9.007	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		33.93m	Yes
+	DNL1		20.93m	Yes
+	DNL2		11.68m	Yes
+	DNL3		2.444m	Yes
+	DNL4		-2.967m	Yes
+	DNL5		-10.93m	Yes
+	DNL6		-21.4m	Yes
+	DNL7		-34.04m	Yes
+	INL		-349.1u	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_52 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.61K	Yes
+	BW Tolerance		394.2m	No
+	DC Gain S0		16.72m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.996	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		5.573m	Yes
+	DNL1		1.525m	Yes
+	DNL2		-1.312m	Yes
+	DNL3		-5.932m	Yes
+	DNL4		-7.964m	Yes
+	DNL5		-13.4m	Yes
+	DNL6		-21.91m	Yes
+	DNL7		-32.9m	Yes
+	INL		-76.32m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_53 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.7K	Yes
+	BW Tolerance		3.691	No
+	DC Gain S0		21.53m	Yes
+	DC Gain S1		3.006	Yes
+	DC Gain S2		5.994	Yes
+	DC Gain S3		8.978	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		7.175m	Yes
+	DNL1		1.856m	Yes
+	DNL2		-1.985m	Yes
+	DNL3		-7.461m	Yes
+	DNL4		-10.3m	Yes
+	DNL5		-16.6m	Yes
+	DNL6		-26.12m	Yes
+	DNL7		-38.37m	Yes
+	INL		-91.81m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_54 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.61K	Yes
+	BW Tolerance		394.2m	No
+	DC Gain S0		16.72m	Yes
+	DC Gain S1		3.005	Yes
+	DC Gain S2		5.996	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		5.573m	Yes
+	DNL1		1.525m	Yes
+	DNL2		-1.312m	Yes
+	DNL3		-5.932m	Yes
+	DNL4		-7.964m	Yes
+	DNL5		-13.4m	Yes
+	DNL6		-21.91m	Yes
+	DNL7		-32.9m	Yes
+	INL		-76.32m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_55 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.7K	Yes
+	BW Tolerance		3.691	No
+	DC Gain S0		21.53m	Yes
+	DC Gain S1		3.006	Yes
+	DC Gain S2		5.994	Yes
+	DC Gain S3		8.978	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		7.175m	Yes
+	DNL1		1.856m	Yes
+	DNL2		-1.985m	Yes
+	DNL3		-7.461m	Yes
+	DNL4		-10.3m	Yes
+	DNL5		-16.6m	Yes
+	DNL6		-26.12m	Yes
+	DNL7		-38.37m	Yes
+	INL		-91.81m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_56 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.58K	Yes
+	BW Tolerance		422.9m	No
+	DC Gain S0		30.55m	Yes
+	DC Gain S1		3.014	Yes
+	DC Gain S2		6.002	Yes
+	DC Gain S3		8.986	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		10.18m	Yes
+	DNL1		4.646m	Yes
+	DNL2		734.3u	Yes
+	DNL3		-4.671m	Yes
+	DNL4		-7.293m	Yes
+	DNL5		-13.19m	Yes
+	DNL6		-22.09m	Yes
+	DNL7		-33.44m	Yes
+	INL		-65.12m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_57 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.7K	Yes
+	BW Tolerance		3.663	No
+	DC Gain S0		36.95m	Yes
+	DC Gain S1		3.016	Yes
+	DC Gain S2		6.001	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		12.32m	Yes
+	DNL1		5.342m	Yes
+	DNL2		304.4u	Yes
+	DNL3		-6.044m	Yes
+	DNL4		-9.545m	Yes
+	DNL5		-16.36m	Yes
+	DNL6		-26.31m	Yes
+	DNL7		-38.97m	Yes
+	INL		-79.27m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_58 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.58K	Yes
+	BW Tolerance		422.9m	No
+	DC Gain S0		30.55m	Yes
+	DC Gain S1		3.014	Yes
+	DC Gain S2		6.002	Yes
+	DC Gain S3		8.986	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.93	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		10.18m	Yes
+	DNL1		4.646m	Yes
+	DNL2		734.3u	Yes
+	DNL3		-4.671m	Yes
+	DNL4		-7.293m	Yes
+	DNL5		-13.19m	Yes
+	DNL6		-22.09m	Yes
+	DNL7		-33.44m	Yes
+	INL		-65.12m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_59 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.7K	Yes
+	BW Tolerance		3.663	No
+	DC Gain S0		36.95m	Yes
+	DC Gain S1		3.016	Yes
+	DC Gain S2		6.001	Yes
+	DC Gain S3		8.982	Yes
+	DC Gain S4		11.97	Yes
+	DC Gain S5		14.95	Yes
+	DC Gain S6		17.92	Yes
+	DC Gain S7		20.88	Yes
+	DNL0		12.32m	Yes
+	DNL1		5.342m	Yes
+	DNL2		304.4u	Yes
+	DNL3		-6.044m	Yes
+	DNL4		-9.545m	Yes
+	DNL5		-16.36m	Yes
+	DNL6		-26.31m	Yes
+	DNL7		-38.97m	Yes
+	INL		-79.27m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_60 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.57K	Yes
+	BW Tolerance		433.1m	No
+	DC Gain S0		58.56m	Yes
+	DC Gain S1		3.035	Yes
+	DC Gain S2		6.018	Yes
+	DC Gain S3		8.999	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		19.52m	Yes
+	DNL1		11.65m	Yes
+	DNL2		6.156m	Yes
+	DNL3		-262.9u	Yes
+	DNL4		-3.456m	Yes
+	DNL5		-9.548m	Yes
+	DNL6		-18.29m	Yes
+	DNL7		-29.11m	Yes
+	INL		-23.34m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_61 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.7K	Yes
+	BW Tolerance		3.672	No
+	DC Gain S0		59.91m	Yes
+	DC Gain S1		3.034	Yes
+	DC Gain S2		6.016	Yes
+	DC Gain S3		8.995	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		19.97m	Yes
+	DNL1		11.34m	Yes
+	DNL2		5.234m	Yes
+	DNL3		-1.722m	Yes
+	DNL4		-5.443m	Yes
+	DNL5		-12.11m	Yes
+	DNL6		-21.55m	Yes
+	DNL7		-33.26m	Yes
+	INL		-37.54m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_62 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		99.57K	Yes
+	BW Tolerance		433.1m	No
+	DC Gain S0		58.56m	Yes
+	DC Gain S1		3.035	Yes
+	DC Gain S2		6.018	Yes
+	DC Gain S3		8.999	Yes
+	DC Gain S4		11.99	Yes
+	DC Gain S5		14.97	Yes
+	DC Gain S6		17.95	Yes
+	DC Gain S7		20.91	Yes
+	DNL0		19.52m	Yes
+	DNL1		11.65m	Yes
+	DNL2		6.156m	Yes
+	DNL3		-262.9u	Yes
+	DNL4		-3.456m	Yes
+	DNL5		-9.548m	Yes
+	DNL6		-18.29m	Yes
+	DNL7		-29.11m	Yes
+	INL		-23.34m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	C0_63 - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		103.7K	Yes
+	BW Tolerance		3.672	No
+	DC Gain S0		59.91m	Yes
+	DC Gain S1		3.034	Yes
+	DC Gain S2		6.016	Yes
+	DC Gain S3		8.995	Yes
+	DC Gain S4		11.98	Yes
+	DC Gain S5		14.96	Yes
+	DC Gain S6		17.94	Yes
+	DC Gain S7		20.9	Yes
+	DNL0		19.97m	Yes
+	DNL1		11.34m	Yes
+	DNL2		5.234m	Yes
+	DNL3		-1.722m	Yes
+	DNL4		-5.443m	Yes
+	DNL5		-12.11m	Yes
+	DNL6		-21.55m	Yes
+	DNL7		-33.26m	Yes
+	INL		-37.54m	Yes
+	aicd_lab_05_opamp_PGAandLPF_1	corner	Nominal - 
+	Vcm		900m
+	Vdd		1.8
+	FilterBW		98.38K	Yes
+	BW Tolerance		1.617	No
+	DC Gain S0		20.88m	Yes
+	DC Gain S1		2.994	Yes
+	DC Gain S2		5.976	Yes
+	DC Gain S3		8.954	Yes
+	DC Gain S4		11.94	Yes
+	DC Gain S5		14.92	Yes
+	DC Gain S6		17.89	Yes
+	DC Gain S7		20.86	Yes
+	DNL0		6.959m	Yes
+	DNL1		-2.125m	Yes
+	DNL2		-8.141m	Yes
+	DNL3		-15.46m	Yes
+	DNL4		-19.05m	Yes
+	DNL5		-26.06m	Yes
+	DNL6		-35.65m	Yes
+	DNL7		-47.65m	Yes
+	INL		-147.2m	Yes
+Design parameters: 
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Fri Jun  9 10:46:25 2023 

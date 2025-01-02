@@ -1,0 +1,3342 @@
+<?xml version="1.0"?>
+<setupdb version="6">maestro
+	<active>Active Setup
+		<jobcontrolmode>LSCS</jobcontrolmode>
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="1">C0
+				<vars>
+					<var>temperature
+						<value>-25 85</value>
+					</var>
+					<var>vdd
+						<value>1.62 1.98</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="1">l65ll_v181.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+					</model>
+					<model enabled="1">l65ll_v181.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+					</model>
+					<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+						<modelsection>"ff" "ss"</modelsection>
+					</model>
+					<model enabled="0">l65ll_v181_mc.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">l65ll_v181_mc.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">MC
+				<vars>
+					<var>vdd
+						<value>1.8</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">l65ll_v181.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">l65ll_v181.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">l65ll_v181_mc.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection>"mc_ll_io25od33"</modelsection>
+					</model>
+					<model enabled="1">l65ll_v181_mc.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection>"mc_ll_res"</modelsection>
+					</model>
+					<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+						<modelsection>"mc"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">C0_0
+				<vars>
+					<var>temperature
+						<value>-25 85</value>
+					</var>
+					<var>vdd
+						<value>1.62 1.98</value>
+					</var>
+				</vars>
+				<modelgroupname></modelgroupname>
+				<models>
+					<model enabled="1">l65ll_v181.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+					</model>
+					<model enabled="1">l65ll_v181.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+					</model>
+					<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+						<modelsection>"ff" "ss"</modelsection>
+					</model>
+					<model enabled="0">l65ll_v181_mc.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">l65ll_v181_mc.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">MC_0
+				<vars>
+					<var>vdd
+						<value>1.8</value>
+					</var>
+				</vars>
+				<modelgroupname></modelgroupname>
+				<models>
+					<model enabled="0">l65ll_v181.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">l65ll_v181.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">l65ll_v181_mc.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection>"mc_ll_io25od33"</modelsection>
+					</model>
+					<model enabled="1">l65ll_v181_mc.lib.scs:1
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+						<modelsection>"mc_ll_res"</modelsection>
+					</model>
+					<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+						<modelsection>"mc"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<overwritehistory>1</overwritehistory>
+		<tests>
+			<test enabled="1">aicd_lab_05_opamp_PGAandLPF_1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+					<option>cell
+						<value>PGAandLPF_Testbench</value>
+					</option>
+					<option>lib
+						<value>aicd_lab_05_opamp</value>
+					</option>
+					<option>view
+						<value>config</value>
+					</option>
+				</tooloptions>
+				<vars>
+					<var>v_offset
+						<value>-1.888u</value>
+					</var>
+					<var>vb0_0
+						<value>0</value>
+					</var>
+					<var>vb0_1
+						<value>1.8</value>
+					</var>
+					<var>vb1_0
+						<value>0</value>
+					</var>
+					<var>vb1_1
+						<value>1.8</value>
+					</var>
+					<var>vb2_0
+						<value>0</value>
+					</var>
+					<var>vb2_1
+						<value>1.8</value>
+					</var>
+					<var>vcontrol
+						<value>1.8</value>
+					</var>
+					<var>vdd
+						<value>1.8</value>
+					</var>
+					<var>vcm
+						<value>0.9</value>
+					</var>
+				</vars>
+				<origoptions>
+					<option>cell
+						<value>PGAandLPF</value>
+					</option>
+					<option>lib
+						<value>aicd_lab_05_opamp</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>cross(VS("/out_offset") 0.9 1 "rising" nil nil nil)
+						<evalType>point</evalType>
+					</output>
+					<output>input_offset
+						<evalType>point</evalType>
+					</output>
+					<output>cross(dB20((VF("/out_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+						<evalType>point</evalType>
+					</output>
+					<output>cross(dB20((VF("/vout_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+						<evalType>point</evalType>
+					</output>
+					<output>FilterBW
+						<evalType>point</evalType>
+					</output>
+					<output>BW Tolerance
+						<evalType>point</evalType>
+					</output>
+					<output>Input Impedance
+						<evalType>point</evalType>
+					</output>
+					<output>DC Gain S0
+						<evalType>point</evalType>
+					</output>
+					<output>DC Gain S4
+						<evalType>point</evalType>
+					</output>
+					<output>nil
+						<evalType>point</evalType>
+					</output>
+					<output>DNL1
+						<evalType>point</evalType>
+					</output>
+					<output>DNL2
+						<evalType>point</evalType>
+					</output>
+					<output>DNL3
+						<evalType>point</evalType>
+					</output>
+					<output>DNL4
+						<evalType>point</evalType>
+					</output>
+					<output>DNL5
+						<evalType>point</evalType>
+					</output>
+					<output>DNL6
+						<evalType>point</evalType>
+					</output>
+					<output>DNL7
+						<evalType>point</evalType>
+					</output>
+					<output>DNL
+						<evalType>point</evalType>
+					</output>
+					<output>((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3)
+						<evalType>point</evalType>
+					</output>
+					<output>(((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3) + ((ymax(dB20((VF("/vout_s1") / VF("/vin_s1")))) - 3) / 3))
+						<evalType>point</evalType>
+					</output>
+					<output>INL
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+				<note>
+					<tooltip></tooltip>
+				</note>
+			</test>
+		</tests>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Replace</value>
+			</exploreroption>
+		</exploreroptions>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">aicd_lab_05_opamp_PGAandLPF_1</test>
+		</checksasserts>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<incrementalsimsetup>
+			<useincremental>0</useincremental>
+			<reusenetlist>0</reusenetlist>
+			<reusesaverunhist>0</reusesaverunhist>
+			<copyreferenceresults>1</copyreferenceresults>
+		</incrementalsimsetup>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
+		<specs>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S0
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S0</resname>
+				<specType>range</specType>
+				<min>-1.5</min>
+				<max>1.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S1
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S1</resname>
+				<specType>range</specType>
+				<min>1.5</min>
+				<max>4.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S2
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S2</resname>
+				<specType>range</specType>
+				<min>4.5</min>
+				<max>7.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S3
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S3</resname>
+				<specType>range</specType>
+				<min>7.5</min>
+				<max>10.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S4
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S4</resname>
+				<specType>range</specType>
+				<min>10.5</min>
+				<max>13.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S5
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S5</resname>
+				<specType>range</specType>
+				<min>13.5</min>
+				<max>16.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S6
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S6</resname>
+				<specType>range</specType>
+				<min>16.5</min>
+				<max>19.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S7
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DC Gain S7</resname>
+				<specType>range</specType>
+				<min>19.5</min>
+				<max>22.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL0
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL0</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL1
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL1</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL2
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL2</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL3
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL3</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL4
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL4</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL5
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL5</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL6
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL6</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL7
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>DNL7</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.INL
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>INL</resname>
+				<specType>range</specType>
+				<min>-0.5</min>
+				<max>0.5</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+			<spec>aicd_lab_05_opamp_PGAandLPF_1.FilterBW
+				<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+				<resname>FilterBW</resname>
+				<specType>range</specType>
+				<min>50k</min>
+				<max>150k</max>
+				<target></target>
+				<tol></tol>
+			</spec>
+		</specs>
+		<runoptions>
+			<mode>Monte Carlo Sampling
+				<runoption>mcnumpoints
+					<value>100</value>
+				</runoption>
+				<runoption>mcYieldTarget
+					<value>99.865</value>
+				</runoption>
+				<runoption>pointsPerJobPolicy
+					<value>Group automatically</value>
+				</runoption>
+				<runoption>mcnumbins
+					<value></value>
+				</runoption>
+				<runoption>samplingmode
+					<value>random</value>
+				</runoption>
+				<runoption>yeyistostart
+					<value>3.0</value>
+				</runoption>
+				<runoption>dumpParamMode
+					<value>no</value>
+				</runoption>
+				<runoption>mcFilterPluginReuseHistory
+					<value></value>
+				</runoption>
+				<runoption>mcYieldAlphaLimit
+					<value>0.05</value>
+				</runoption>
+				<runoption>reliabilitymode
+					<value>singlestress</value>
+				</runoption>
+				<runoption>maxPointsPerJob
+					<value>10</value>
+				</runoption>
+				<runoption>mcstartingrunnumber
+					<value>1</value>
+				</runoption>
+				<runoption>mcSigmaTarget
+					<value>3</value>
+				</runoption>
+				<runoption>montecarloseed
+					<value>12345</value>
+				</runoption>
+				<runoption>sssnumpoints
+					<value>7000</value>
+				</runoption>
+				<runoption>mcFilterPluginPath
+					<value></value>
+				</runoption>
+				<runoption>yeexpectedyield
+					<value>3</value>
+				</runoption>
+				<runoption>mcmethod
+					<value>all</value>
+				</runoption>
+				<runoption>wcdinitialpoints
+					<value>200</value>
+				</runoption>
+				<runoption>yeiterations
+					<value>10</value>
+				</runoption>
+				<runoption>saveallplots
+					<value>0</value>
+				</runoption>
+				<runoption>yeusehistorymc
+					<value>0</value>
+				</runoption>
+				<runoption>saveprocess
+					<value>0</value>
+				</runoption>
+				<runoption>yeuseautomcsamples
+					<value>1</value>
+				</runoption>
+				<runoption>mcStopEarly
+					<value>0</value>
+				</runoption>
+				<runoption>yecreatecorners
+					<value>0</value>
+				</runoption>
+				<runoption>parasiticanalysis
+					<value>0</value>
+				</runoption>
+				<runoption>savemismatch
+					<value>0</value>
+				</runoption>
+				<runoption>mcFilterPluginEnabled
+					<value>0</value>
+				</runoption>
+				<runoption>haveyeyieldtostart
+					<value>1</value>
+				</runoption>
+				<runoption>yeusevarreduction
+					<value>1</value>
+				</runoption>
+			</mode>
+		</runoptions>
+		<vars>
+			<var>sigma
+				<value>3</value>
+			</var>
+		</vars>
+		<distributeoptions></distributeoptions>
+		<allcornersenabled>0</allcornersenabled>
+		<allsweepsenabled>1</allsweepsenabled>
+		<jobpolicyname>Maestro Default</jobpolicyname>
+		<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-25 85</value>
+							</var>
+							<var>vdd
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection>"ff"  "ss"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">aicd_lab_05_opamp_PGAandLPF_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.0</value>
+							</option>
+							<option>cell
+								<value>PGAandLPF_Testbench</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>v_offset
+								<value>-1.888u</value>
+							</var>
+							<var>vb0_0
+								<value>0</value>
+							</var>
+							<var>vb0_1
+								<value>1.8</value>
+							</var>
+							<var>vb1_0
+								<value>0</value>
+							</var>
+							<var>vb1_1
+								<value>1.8</value>
+							</var>
+							<var>vb2_0
+								<value>0</value>
+							</var>
+							<var>vb2_1
+								<value>1.8</value>
+							</var>
+							<var>vcontrol
+								<value>1.8</value>
+							</var>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+							<var>vcm
+								<value>0.9</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>PGAandLPF</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>cross(VS("/out_offset") 0.9 1 "rising" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>input_offset
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/out_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/vout_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>FilterBW
+								<evalType>point</evalType>
+							</output>
+							<output>BW Tolerance
+								<evalType>point</evalType>
+							</output>
+							<output>Input Impedance
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S0
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S4
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>DNL1
+								<evalType>point</evalType>
+							</output>
+							<output>DNL2
+								<evalType>point</evalType>
+							</output>
+							<output>DNL3
+								<evalType>point</evalType>
+							</output>
+							<output>DNL4
+								<evalType>point</evalType>
+							</output>
+							<output>DNL5
+								<evalType>point</evalType>
+							</output>
+							<output>DNL6
+								<evalType>point</evalType>
+							</output>
+							<output>DNL7
+								<evalType>point</evalType>
+							</output>
+							<output>DNL
+								<evalType>point</evalType>
+							</output>
+							<output>((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3)
+								<evalType>point</evalType>
+							</output>
+							<output>(((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3) + ((ymax(dB20((VF("/vout_s1") / VF("/vin_s1")))) - 3) / 3))
+								<evalType>point</evalType>
+							</output>
+							<output>INL
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">aicd_lab_05_opamp_PGAandLPF_1</test>
+				</checksasserts>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jun 9 10:11:26 2023</timestamp>
+			<uuid>{331919f5-0941-4855-896a-c4cd8023f0b9}</uuid>
+			<resultsname>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/amnesix_aic05_101126657</localpsfdir>
+			<psfdir>/home/aic05/simulation/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.1
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-25 85</value>
+							</var>
+							<var>vdd
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection>"ff"  "ss"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">aicd_lab_05_opamp_PGAandLPF_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.1</value>
+							</option>
+							<option>cell
+								<value>PGAandLPF_Testbench</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>v_offset
+								<value>-1.888u</value>
+							</var>
+							<var>vb0_0
+								<value>0</value>
+							</var>
+							<var>vb0_1
+								<value>1.8</value>
+							</var>
+							<var>vb1_0
+								<value>0</value>
+							</var>
+							<var>vb1_1
+								<value>1.8</value>
+							</var>
+							<var>vb2_0
+								<value>0</value>
+							</var>
+							<var>vb2_1
+								<value>1.8</value>
+							</var>
+							<var>vcontrol
+								<value>1.8</value>
+							</var>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+							<var>vcm
+								<value>0.9</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>PGAandLPF</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>cross(VS("/out_offset") 0.9 1 "rising" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>input_offset
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/out_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/vout_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>FilterBW
+								<evalType>point</evalType>
+							</output>
+							<output>BW Tolerance
+								<evalType>point</evalType>
+							</output>
+							<output>Input Impedance
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S0
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S4
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>DNL1
+								<evalType>point</evalType>
+							</output>
+							<output>DNL2
+								<evalType>point</evalType>
+							</output>
+							<output>DNL3
+								<evalType>point</evalType>
+							</output>
+							<output>DNL4
+								<evalType>point</evalType>
+							</output>
+							<output>DNL5
+								<evalType>point</evalType>
+							</output>
+							<output>DNL6
+								<evalType>point</evalType>
+							</output>
+							<output>DNL7
+								<evalType>point</evalType>
+							</output>
+							<output>DNL
+								<evalType>point</evalType>
+							</output>
+							<output>((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3)
+								<evalType>point</evalType>
+							</output>
+							<output>(((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3) + ((ymax(dB20((VF("/vout_s1") / VF("/vin_s1")))) - 3) / 3))
+								<evalType>point</evalType>
+							</output>
+							<output>INL
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">aicd_lab_05_opamp_PGAandLPF_1</test>
+				</checksasserts>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<specs>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S0</resname>
+						<specType>range</specType>
+						<min>-1.5</min>
+						<max>1.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S1</resname>
+						<specType>range</specType>
+						<min>1.5</min>
+						<max>4.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S2</resname>
+						<specType>range</specType>
+						<min>4.5</min>
+						<max>7.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S3</resname>
+						<specType>range</specType>
+						<min>7.5</min>
+						<max>10.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S4</resname>
+						<specType>range</specType>
+						<min>10.5</min>
+						<max>13.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S5</resname>
+						<specType>range</specType>
+						<min>13.5</min>
+						<max>16.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S6</resname>
+						<specType>range</specType>
+						<min>16.5</min>
+						<max>19.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S7</resname>
+						<specType>range</specType>
+						<min>19.5</min>
+						<max>22.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL0</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL1</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL2</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL3</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL4</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL5</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL6</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL7</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.INL
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>INL</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.FilterBW
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>FilterBW</resname>
+						<specType>range</specType>
+						<min>50k</min>
+						<max>150k</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.BW Tolerance
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>BW Tolerance</resname>
+						<specType>max</specType>
+						<min></min>
+						<max>50</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jun 9 10:30:41 2023</timestamp>
+			<uuid>{6555e9c5-59b9-4a83-bd3e-4947a7e0cb0f}</uuid>
+			<resultsname>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/amnesix_aic05_103041541</localpsfdir>
+			<psfdir>/home/aic05/simulation/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.2
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">C0
+						<vars>
+							<var>temperature
+								<value>-25 85</value>
+							</var>
+							<var>vdd
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection>"ff" "ss"</modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MC
+						<vars>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection>"mc"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">aicd_lab_05_opamp_PGAandLPF_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.2</value>
+							</option>
+							<option>cell
+								<value>PGAandLPF_Testbench</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>v_offset
+								<value>-1.888u</value>
+							</var>
+							<var>vb0_0
+								<value>0</value>
+							</var>
+							<var>vb0_1
+								<value>1.8</value>
+							</var>
+							<var>vb1_0
+								<value>0</value>
+							</var>
+							<var>vb1_1
+								<value>1.8</value>
+							</var>
+							<var>vb2_0
+								<value>0</value>
+							</var>
+							<var>vb2_1
+								<value>1.8</value>
+							</var>
+							<var>vcontrol
+								<value>1.8</value>
+							</var>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+							<var>vcm
+								<value>0.9</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>PGAandLPF</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>cross(VS("/out_offset") 0.9 1 "rising" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>input_offset
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/out_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/vout_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>FilterBW
+								<evalType>point</evalType>
+							</output>
+							<output>BW Tolerance
+								<evalType>point</evalType>
+							</output>
+							<output>Input Impedance
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S0
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S4
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>DNL1
+								<evalType>point</evalType>
+							</output>
+							<output>DNL2
+								<evalType>point</evalType>
+							</output>
+							<output>DNL3
+								<evalType>point</evalType>
+							</output>
+							<output>DNL4
+								<evalType>point</evalType>
+							</output>
+							<output>DNL5
+								<evalType>point</evalType>
+							</output>
+							<output>DNL6
+								<evalType>point</evalType>
+							</output>
+							<output>DNL7
+								<evalType>point</evalType>
+							</output>
+							<output>DNL
+								<evalType>point</evalType>
+							</output>
+							<output>((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3)
+								<evalType>point</evalType>
+							</output>
+							<output>(((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3) + ((ymax(dB20((VF("/vout_s1") / VF("/vin_s1")))) - 3) / 3))
+								<evalType>point</evalType>
+							</output>
+							<output>INL
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">aicd_lab_05_opamp_PGAandLPF_1</test>
+				</checksasserts>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<specs>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S0</resname>
+						<specType>range</specType>
+						<min>-1.5</min>
+						<max>1.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S1</resname>
+						<specType>range</specType>
+						<min>1.5</min>
+						<max>4.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S2</resname>
+						<specType>range</specType>
+						<min>4.5</min>
+						<max>7.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S3</resname>
+						<specType>range</specType>
+						<min>7.5</min>
+						<max>10.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S4</resname>
+						<specType>range</specType>
+						<min>10.5</min>
+						<max>13.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S5</resname>
+						<specType>range</specType>
+						<min>13.5</min>
+						<max>16.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S6</resname>
+						<specType>range</specType>
+						<min>16.5</min>
+						<max>19.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S7</resname>
+						<specType>range</specType>
+						<min>19.5</min>
+						<max>22.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL0</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL1</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL2</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL3</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL4</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL5</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL6</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL7</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.INL
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>INL</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.FilterBW
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>FilterBW</resname>
+						<specType>range</specType>
+						<min>50k</min>
+						<max>150k</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcnumpoints
+							<value>100</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>samplingmode
+							<value>random</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>0</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<vars>
+					<var>sigma
+						<value>3</value>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jun 9 14:18:33 2023</timestamp>
+			<uuid>{ef253383-dd67-4036-a183-69e6321097ec}</uuid>
+			<resultsname>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/praktikum16_aic05_141833035</localpsfdir>
+			<psfdir>/home/aic05/simulation/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.3
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-25 85</value>
+							</var>
+							<var>vdd
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection>"ff" "ss"</modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MC
+						<vars>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection>"mc"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">C0_0
+						<vars>
+							<var>temperature
+								<value>-25 85</value>
+							</var>
+							<var>vdd
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<modelgroupname></modelgroupname>
+						<models>
+							<model enabled="1">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection>"ff" "ss"</modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MC_0
+						<vars>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+						</vars>
+						<modelgroupname></modelgroupname>
+						<models>
+							<model enabled="0">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection>"mc"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">aicd_lab_05_opamp_PGAandLPF_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>Interactive.3</value>
+							</option>
+							<option>cell
+								<value>PGAandLPF_Testbench</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>view
+								<value>config</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>v_offset
+								<value>-1.888u</value>
+							</var>
+							<var>vb0_0
+								<value>0</value>
+							</var>
+							<var>vb0_1
+								<value>1.8</value>
+							</var>
+							<var>vb1_0
+								<value>0</value>
+							</var>
+							<var>vb1_1
+								<value>1.8</value>
+							</var>
+							<var>vb2_0
+								<value>0</value>
+							</var>
+							<var>vb2_1
+								<value>1.8</value>
+							</var>
+							<var>vcontrol
+								<value>1.8</value>
+							</var>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+							<var>vcm
+								<value>0.9</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>PGAandLPF</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>cross(VS("/out_offset") 0.9 1 "rising" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>input_offset
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/out_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/vout_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>FilterBW
+								<evalType>point</evalType>
+							</output>
+							<output>BW Tolerance
+								<evalType>point</evalType>
+							</output>
+							<output>Input Impedance
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S0
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S4
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>DNL1
+								<evalType>point</evalType>
+							</output>
+							<output>DNL2
+								<evalType>point</evalType>
+							</output>
+							<output>DNL3
+								<evalType>point</evalType>
+							</output>
+							<output>DNL4
+								<evalType>point</evalType>
+							</output>
+							<output>DNL5
+								<evalType>point</evalType>
+							</output>
+							<output>DNL6
+								<evalType>point</evalType>
+							</output>
+							<output>DNL7
+								<evalType>point</evalType>
+							</output>
+							<output>DNL
+								<evalType>point</evalType>
+							</output>
+							<output>((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3)
+								<evalType>point</evalType>
+							</output>
+							<output>(((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3) + ((ymax(dB20((VF("/vout_s1") / VF("/vin_s1")))) - 3) / 3))
+								<evalType>point</evalType>
+							</output>
+							<output>INL
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<note>
+							<tooltip></tooltip>
+						</note>
+					</test>
+				</tests>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">aicd_lab_05_opamp_PGAandLPF_1</test>
+				</checksasserts>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<specs>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S0</resname>
+						<specType>range</specType>
+						<min>-1.5</min>
+						<max>1.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S1</resname>
+						<specType>range</specType>
+						<min>1.5</min>
+						<max>4.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S2</resname>
+						<specType>range</specType>
+						<min>4.5</min>
+						<max>7.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S3</resname>
+						<specType>range</specType>
+						<min>7.5</min>
+						<max>10.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S4</resname>
+						<specType>range</specType>
+						<min>10.5</min>
+						<max>13.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S5</resname>
+						<specType>range</specType>
+						<min>13.5</min>
+						<max>16.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S6</resname>
+						<specType>range</specType>
+						<min>16.5</min>
+						<max>19.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S7</resname>
+						<specType>range</specType>
+						<min>19.5</min>
+						<max>22.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL0</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL1</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL2</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL3</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL4</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL5</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL6</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL7</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.INL
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>INL</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.FilterBW
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>FilterBW</resname>
+						<specType>range</specType>
+						<min>50k</min>
+						<max>150k</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcnumpoints
+							<value>100</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>samplingmode
+							<value>random</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>0</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<vars>
+					<var>sigma
+						<value>3</value>
+					</var>
+				</vars>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jul 2 16:35:14 2023</timestamp>
+			<uuid>{6c0137c3-ec92-4a86-b30a-0836c88e8291}</uuid>
+			<resultsname>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/allesodernix_aic05_163514913</localpsfdir>
+			<psfdir>/home/aic05/simulation/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">C0
+						<vars>
+							<var>temperature
+								<value>-25 85</value>
+							</var>
+							<var>vdd
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="1">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection>"ff" "ss"</modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MC
+						<vars>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection>"mc"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">C0_0
+						<vars>
+							<var>temperature
+								<value>-25 85</value>
+							</var>
+							<var>vdd
+								<value>1.62 1.98</value>
+							</var>
+						</vars>
+						<modelgroupname></modelgroupname>
+						<models>
+							<model enabled="1">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ss_ll_io25od33" "ff_ll_io25od33" "fnsp_ll_io25od33" "snfp_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection>"ff_ll_res" "ss_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection>"ff" "ss"</modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">MC_0
+						<vars>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+						</vars>
+						<modelgroupname></modelgroupname>
+						<models>
+							<model enabled="0">l65ll_v181.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">l65ll_v181.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/l65ll_v181.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">L65_MIMCAPS_20F_KF_V101_RF.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/L65_MIMCAPS_20F_KF_V101_RF.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_io25od33"</modelsection>
+							</model>
+							<model enabled="1">l65ll_v181_mc.lib.scs:1
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/l65ll_v181_mc.lib.scs</modelfile>
+								<modelsection>"mc_ll_res"</modelsection>
+							</model>
+							<model enabled="1">L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/cadstud/cds03/Cadence_Libraries/UMC_TECH/UMC_65/umc_65_ll_ver_B11PB/Models/Spectre/Monte_Carlo/L65_MIMCAPS_20F_KF_V101_RF_MC.lib.scs</modelfile>
+								<modelsection>"mc"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<overwritehistory>1</overwritehistory>
+				<tests>
+					<test enabled="1">aicd_lab_05_opamp_PGAandLPF_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>ExplorerRun.0</value>
+							</option>
+							<option>cell
+								<value>PGAandLPF_Testbench</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>view
+								<value>config</value>
+							</option>
+						</tooloptions>
+						<vars>
+							<var>v_offset
+								<value>-1.888u</value>
+							</var>
+							<var>vb0_0
+								<value>0</value>
+							</var>
+							<var>vb0_1
+								<value>1.8</value>
+							</var>
+							<var>vb1_0
+								<value>0</value>
+							</var>
+							<var>vb1_1
+								<value>1.8</value>
+							</var>
+							<var>vb2_0
+								<value>0</value>
+							</var>
+							<var>vb2_1
+								<value>1.8</value>
+							</var>
+							<var>vcontrol
+								<value>1.8</value>
+							</var>
+							<var>vdd
+								<value>1.8</value>
+							</var>
+							<var>vcm
+								<value>0.9</value>
+							</var>
+						</vars>
+						<origoptions>
+							<option>cell
+								<value>PGAandLPF</value>
+							</option>
+							<option>lib
+								<value>aicd_lab_05_opamp</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>cross(VS("/out_offset") 0.9 1 "rising" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>input_offset
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/out_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>cross(dB20((VF("/vout_s0") / VF("/in_filter"))) "-3" 1 "falling" nil nil nil)
+								<evalType>point</evalType>
+							</output>
+							<output>FilterBW
+								<evalType>point</evalType>
+							</output>
+							<output>BW Tolerance
+								<evalType>point</evalType>
+							</output>
+							<output>Input Impedance
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S0
+								<evalType>point</evalType>
+							</output>
+							<output>DC Gain S4
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>DNL1
+								<evalType>point</evalType>
+							</output>
+							<output>DNL2
+								<evalType>point</evalType>
+							</output>
+							<output>DNL3
+								<evalType>point</evalType>
+							</output>
+							<output>DNL4
+								<evalType>point</evalType>
+							</output>
+							<output>DNL5
+								<evalType>point</evalType>
+							</output>
+							<output>DNL6
+								<evalType>point</evalType>
+							</output>
+							<output>DNL7
+								<evalType>point</evalType>
+							</output>
+							<output>DNL
+								<evalType>point</evalType>
+							</output>
+							<output>((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3)
+								<evalType>point</evalType>
+							</output>
+							<output>(((ymax(dB20((VF("/vout_s0") / VF("/vin_s0")))) - 0) / 3) + ((ymax(dB20((VF("/vout_s1") / VF("/vin_s1")))) - 3) / 3))
+								<evalType>point</evalType>
+							</output>
+							<output>INL
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<note>
+							<tooltip></tooltip>
+						</note>
+					</test>
+				</tests>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>Auto</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotsignals
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotwaveexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotscalarexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignname
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatesimdate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignvars
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatetemperature
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatescalaroutputs
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatespecmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>directplotmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>directplotafter
+						<value>All Selections Are Made</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>printafter
+						<value>Each Selection</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">aicd_lab_05_opamp_PGAandLPF_1</test>
+				</checksasserts>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<reusesaverunhist>0</reusesaverunhist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<specs>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S0</resname>
+						<specType>range</specType>
+						<min>-1.5</min>
+						<max>1.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S1</resname>
+						<specType>range</specType>
+						<min>1.5</min>
+						<max>4.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S2</resname>
+						<specType>range</specType>
+						<min>4.5</min>
+						<max>7.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S3</resname>
+						<specType>range</specType>
+						<min>7.5</min>
+						<max>10.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S4</resname>
+						<specType>range</specType>
+						<min>10.5</min>
+						<max>13.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S5</resname>
+						<specType>range</specType>
+						<min>13.5</min>
+						<max>16.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S6</resname>
+						<specType>range</specType>
+						<min>16.5</min>
+						<max>19.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DC Gain S7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DC Gain S7</resname>
+						<specType>range</specType>
+						<min>19.5</min>
+						<max>22.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL0
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL0</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL1
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL1</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL2
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL2</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL3
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL3</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL4
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL4</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL5
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL5</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL6
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL6</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.DNL7
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>DNL7</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.INL
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>INL</resname>
+						<specType>range</specType>
+						<min>-0.5</min>
+						<max>0.5</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+					<spec>aicd_lab_05_opamp_PGAandLPF_1.FilterBW
+						<testname>aicd_lab_05_opamp_PGAandLPF_1</testname>
+						<resname>FilterBW</resname>
+						<specType>range</specType>
+						<min>50k</min>
+						<max>150k</max>
+						<target></target>
+						<tol></tol>
+					</spec>
+				</specs>
+				<runoptions>
+					<mode>Monte Carlo Sampling
+						<runoption>mcnumpoints
+							<value>100</value>
+						</runoption>
+						<runoption>mcYieldTarget
+							<value>99.865</value>
+						</runoption>
+						<runoption>pointsPerJobPolicy
+							<value>Group automatically</value>
+						</runoption>
+						<runoption>mcnumbins
+							<value></value>
+						</runoption>
+						<runoption>samplingmode
+							<value>random</value>
+						</runoption>
+						<runoption>yeyistostart
+							<value>3.0</value>
+						</runoption>
+						<runoption>dumpParamMode
+							<value>no</value>
+						</runoption>
+						<runoption>mcFilterPluginReuseHistory
+							<value></value>
+						</runoption>
+						<runoption>mcYieldAlphaLimit
+							<value>0.05</value>
+						</runoption>
+						<runoption>reliabilitymode
+							<value>singlestress</value>
+						</runoption>
+						<runoption>maxPointsPerJob
+							<value>10</value>
+						</runoption>
+						<runoption>mcstartingrunnumber
+							<value>1</value>
+						</runoption>
+						<runoption>mcSigmaTarget
+							<value>3</value>
+						</runoption>
+						<runoption>montecarloseed
+							<value>12345</value>
+						</runoption>
+						<runoption>sssnumpoints
+							<value>7000</value>
+						</runoption>
+						<runoption>mcFilterPluginPath
+							<value></value>
+						</runoption>
+						<runoption>yeexpectedyield
+							<value>3</value>
+						</runoption>
+						<runoption>mcmethod
+							<value>all</value>
+						</runoption>
+						<runoption>wcdinitialpoints
+							<value>200</value>
+						</runoption>
+						<runoption>yeiterations
+							<value>10</value>
+						</runoption>
+						<runoption>saveallplots
+							<value>0</value>
+						</runoption>
+						<runoption>yeusehistorymc
+							<value>0</value>
+						</runoption>
+						<runoption>saveprocess
+							<value>0</value>
+						</runoption>
+						<runoption>yeuseautomcsamples
+							<value>1</value>
+						</runoption>
+						<runoption>mcStopEarly
+							<value>0</value>
+						</runoption>
+						<runoption>yecreatecorners
+							<value>0</value>
+						</runoption>
+						<runoption>parasiticanalysis
+							<value>0</value>
+						</runoption>
+						<runoption>savemismatch
+							<value>0</value>
+						</runoption>
+						<runoption>mcFilterPluginEnabled
+							<value>0</value>
+						</runoption>
+						<runoption>haveyeyieldtostart
+							<value>1</value>
+						</runoption>
+						<runoption>yeusevarreduction
+							<value>1</value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<vars>
+					<var>sigma
+						<value>3</value>
+					</var>
+				</vars>
+				<distributeoptions></distributeoptions>
+				<allcornersenabled>0</allcornersenabled>
+				<allsweepsenabled>1</allsweepsenabled>
+				<jobpolicyname>Maestro Default</jobpolicyname>
+				<netlistjobpolicyname>Netlisting Default</netlistjobpolicyname>
+				<runnabletests>
+					<test>aicd_lab_05_opamp_PGAandLPF_1</test>
+				</runnabletests>
+				<disabledtests></disabledtests>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Jul 16 15:16:04 2023</timestamp>
+			<uuid>{95707564-0fc6-4930-851b-15ac2ec61acb}</uuid>
+			<resultsname>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/amnesix_aic05_151604085</localpsfdir>
+			<psfdir>/home/aic05/simulation/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/ExplorerRun.0</simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/aic05/AICD_lab_project/vir/aicd_lab_05_opamp/PGAandLPF_Testbench/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+	<history>History</history>
+</setupdb>

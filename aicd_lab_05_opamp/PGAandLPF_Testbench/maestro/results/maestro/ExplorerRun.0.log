@@ -1,0 +1,33 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Jul 16 15:16:05 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_PGAandLPF_1	corner	Nominal - 
+	input_offset		-282u
+	Vcm		900m
+	Vdd		1.8
+	DC Gain S0		147.1m	Yes
+	DC Gain S1		3.108	Yes
+	DC Gain S2		6.091	Yes
+	DC Gain S3		9.064	Yes
+	DC Gain S4		12.06	Yes
+	DC Gain S5		15.04	Yes
+	DC Gain S6		18.02	Yes
+	DC Gain S7		20.99	Yes
+	DNL0		49.03m	Yes
+	DNL1		35.89m	Yes
+	DNL2		30.25m	Yes
+	DNL3		21.26m	Yes
+	DNL4		19.94m	Yes
+	DNL5		12.5m	Yes
+	DNL6		5.755m	Yes
+	DNL7		-2.061m	Yes
+	INL		172.6m	Yes
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sun Jul 16 15:16:48 2023 

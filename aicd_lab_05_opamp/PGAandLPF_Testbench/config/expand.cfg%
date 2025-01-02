@@ -1,0 +1,20 @@
+//Revision 17
+//NOTE
+// Default config view template for AMS netlister(s) in ADE.
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config PGAandLPF_Testbench;
+design aicd_lab_05_opamp.PGAandLPF_Testbench:schematic;
+liblist myLib;
+
+viewlist spectre, spice, pspice, verilog, verilogams, behavioral, functional, systemVerilog, schematic, veriloga, vhdl, vhdlams, wreal, av_extracted;
+stoplist spectre;
+
+
+cell aicd_lab_05_opamp.PGA binding :schematic;
+
+
+endconfig

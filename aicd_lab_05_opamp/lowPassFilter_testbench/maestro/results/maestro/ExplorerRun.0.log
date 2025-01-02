@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Jul 16 14:56:23 2023 
+Best design point: 1
+Design specs: 
+	aicd_lab_05_opamp_lowPassFilter_testbench_1	corner	Nominal - 
+	BW		99.16K	Yes
+	BW_Tolerance		1.62	Yes
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sun Jul 16 14:56:51 2023 
