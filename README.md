@@ -1,4 +1,4 @@
-# Programmable Gain Aamplifier (PGA) Circuits Design
+# Programmable Gain Amplifier (PGA) Circuits Design
 
 This project focuses on designing the schematics and layouts of PGA circuits using electronic components from the UMC65ll library, implemented in [Cadence Virtuoso](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/layout-design/virtuoso-layout-suite.html) . The key components implemeneted include:
 * Inverter
