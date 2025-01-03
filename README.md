@@ -15,7 +15,7 @@ For each component, both schematic and layout designs are provided, along with t
 
 1. [Overview](#overview)
 2. [Schematic & Layout Design](#schematic--layout-design)
-3. [Simulation](#simulation)
+3. [Simulations](#simulations)
 3. [Books and Materials](#books-and-materials)
 
 ---
